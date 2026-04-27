@@ -6,8 +6,7 @@ mkdir cms-contentful-app
 cd cms-contentful-app
 npx create-next-app --example cms-contentful .
 
-npx cross-env CONTENTFUL_SPACE_ID=h8rhtcyxqer2 CONTENTFUL_MANAGEMENT_TOKEN=YX9Sr2G9VQVtWVwr8RDYwUivgyR5M_qIzk-q13ZXBCY npm run setup
-
+npx cross-env CONTENTFUL_SPACE_ID=eni08jqy7cku CONTENTFUL_MANAGEMENT_TOKEN=CFPAT-sV95wCeyvwOmI_vJ3_5R042G6CgVClpXSjCMRTQXRl4 npm run setup
 
 “Historically, developers had to use different languages (e.g. JavaScript, PHP) and frameworks when writing code for the server and the client. 
 
